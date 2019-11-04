@@ -2,13 +2,13 @@ spring:
   profiles:
   active:
   - dev
------
+---
 spring:
   profiels: dev
   application:
     name: microservicecloud-config-hand-dev
-------
+---
 spring:
   profiles: uat
   application:
-    name: microservicecloud-config-han-uat
+    name: microservicecloud-config-hand-uat
