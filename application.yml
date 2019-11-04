@@ -1,14 +1,14 @@
-spring:
-    profiles:
-    active:
+spring: 
+    profiles: 
+    active: 
     - dev
 -----
-spring:
+spring: 
     profiels: dev
-    application:
+    application: 
       name: microservicecloud-config-hand-dev
 ------
-spring:
+spring: 
   profiles: uat
-  application:
+  application: 
     name: microservicecloud-config-han-uat
