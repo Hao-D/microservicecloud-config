@@ -9,7 +9,10 @@ spring:
   profiels: uat
   application:
     name: microservicecloud-config-client
-
+eureka:
+  client: #客户端注册进eureka服务列表内
+    service-url:
+      defaultZone: http://localhost:7001/eureka
 
 ---
 server:
@@ -18,3 +21,7 @@ spring:
   profiels: test
   application:
     name: microservicecloud-config-client
+eureka:
+  client: #客户端注册进eureka服务列表内
+    service-url:
+      defaultZone: http://localhost:7002/eureka
